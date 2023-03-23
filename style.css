@@ -1,0 +1,63 @@
+/*justify-content и align-items,*/
+
+body {
+  background-color: #333;
+}
+
+.wrapper {
+height: 100%;
+overflow: hidden;
+min-height: 100%;
+padding: 50px;
+}
+
+.block__row{
+border: 20px solid chocolate;
+margin: 0px 0px 20px 0px;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+}
+
+.block__colum {
+
+  border: 20px solid gold;
+}
+.block__item {
+background-color: lawngreen;
+padding: 50px;
+font-size: 50px;
+color: azure;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
